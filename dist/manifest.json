@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "EyeGlide",
+  "version": "1.0",
+  "description": "Apply 'Rapid Serial Visual Presentation' (RSVP) with a specific focus on the 'Optimal Recognition Point' (ORP) or 'fixation point' on all paragraphs and lists on the website.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

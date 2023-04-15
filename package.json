@@ -1,0 +1,21 @@
+{
+  "name": "EyeGlide",
+  "version": "1.0.0",
+  "description": "Apply 'Rapid Serial Visual Presentation' (RSVP) with a specific focus on the 'Optimal Recognition Point' (ORP) or 'fixation point' on all paragraphs and list on the website.",
+  "main": "content.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Hussain Sajid",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "text-vide": "^1.7.0"
+  }
+}
